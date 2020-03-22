@@ -10,6 +10,9 @@
 	color: #888;
 	outline: 1px solid #888;
 }
+.button:hover{
+	cursor: pointer;
+}
 .operator{
 	background-color: #fe9241;
 	color: white;
