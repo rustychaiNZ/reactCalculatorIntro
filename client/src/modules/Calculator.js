@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import './App.css';
+import './Calculator.css';
 import Button from './componenets/Button';
 import Input from './componenets/Input';
 import ClearButton from './componenets/ClearButton';
 
 // Basic calculator
-class App extends Component {
+class Calculator extends Component {
 	constructor(props) {
 		super(props);
 
@@ -133,4 +133,4 @@ class App extends Component {
 	}
 }
 
-export default App;
+export default Calculator;
