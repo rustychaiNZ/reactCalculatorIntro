@@ -10,3 +10,6 @@
 	height: 4em;
 	background-color: #c5c3cd;
 }
+.clear-btn:hover{
+	cursor: pointer;
+}
