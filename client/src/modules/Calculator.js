@@ -71,12 +71,14 @@ class Calculator extends Component {
 
 	// Gives answer to inputted numbers and operators
 	equal = () => {
-		this.setState({currentNumber: this.state.input});
+		// this.setState({currentNumber: this.state.input});
+		this.state.currentNumber = this.state.input;
 
 		if(this.state.operator === "plus"){
 			this.setState({
 				input: parseFloat(this.state.perviouisNumber) + parseFloat(this.state.currentNumber)
 			});
+			console.log(this.state);
 		} else if(this.state.operator === "subtract"){
 			this.setState({
 				input: parseFloat(this.state.perviouisNumber) - parseFloat(this.state.currentNumber)
